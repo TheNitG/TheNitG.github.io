@@ -9,8 +9,10 @@ body {
 }
 
 header, footer {
-  background-color: #008080;
   text-align: left;
+  background: #12c2e9;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #f64f59, #c471ed, #12c2e9);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #f64f59, #c471ed, #12c2e9); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   /* min-width: 500px; */
 }
 
@@ -51,7 +53,7 @@ h2 {
   font-weight: 600;
   letter-spacing: 0.3px;
   text-align: left;
-  color: #008080;
+  color: #12c2e9;
   padding: 10px 0px 10px 10px;
 }
 
